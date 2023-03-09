@@ -23,7 +23,7 @@ def alcohol_test():
         test = True
     return test
 
-age = int(input("Wie alt bist du?:\n "))
+age = int(input("Wie alt bist du?:\n"))
 
 if not age >= 18:
     not_allowed = True
